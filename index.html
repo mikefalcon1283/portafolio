@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jose Juarez — Fotógrafo y videógrafo con drone</title>
+  <meta name="description" content="Portafolio de fotografía y video: drone, eventos sociales y corporativos. Jose Juarez.">
+  <meta property="og:title" content="Jose Juarez — Fotógrafo y videógrafo">
+  <meta property="og:description" content="Fotografía y video con drone, eventos sociales y proyectos corporativos.">
+  <meta property="og:image" content="https://josejuarez.mx/img/foto-01.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-pagina="inicio">
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#inicio">Jose Juarez</a>
+      <button class="menu" aria-expanded="false" aria-controls="nav">Menú</button>
+      <nav class="nav" id="nav">
+        <a href="#galerias">Galerías</a>
+        <a href="#videos">Videos</a>
+        <a href="#acerca">Acerca de</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <img id="portada" alt="Fotografía aérea de portada" fetchpriority="high">
+      <div class="wrap">
+        <h1>Jose Juarez</h1>
+        <p>Fotografía y video con drone, eventos sociales y proyectos corporativos.</p>
+        <a class="btn" href="#galerias">Ver galerías</a>
+      </div>
+    </section>
+
+    <section class="sec" id="galerias">
+      <div class="wrap">
+        <h2>Galerías</h2>
+        <p class="intro">Elige una categoría para ver todas las fotos.</p>
+        <div class="cats" id="cats"></div>
+      </div>
+    </section>
+
+    <section class="sec" id="videos" hidden>
+      <div class="wrap">
+        <h2>Videos</h2>
+        <p class="intro">Tomas aéreas y coberturas de evento.</p>
+        <div class="videos" id="lista-videos"></div>
+      </div>
+    </section>
+
+    <section class="sec" id="acerca">
+      <div class="wrap acerca">
+        <img id="retrato" alt="Retrato de Jose Juarez" loading="lazy">
+        <div>
+          <h2>Acerca de</h2>
+          <p>Soy Jose Juarez, fotógrafo y videógrafo especializado en tomas con drone, eventos sociales y proyectos corporativos. Mi trabajo busca capturar momentos con una mirada limpia y cuidada, combinando la perspectiva aérea con la cercanía de cada historia.</p>
+          <p>Disponible para bodas, eventos, cobertura corporativa y proyectos aéreos. Trabajo en todo tipo de locaciones.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="contacto">
+      <div class="wrap">
+        <h2>Contacto</h2>
+        <p class="intro">Cuéntame qué evento o proyecto tienes y te respondo con una cotización.</p>
+        <div class="acciones">
+          <a class="btn" id="wa" href="#">Escribir por WhatsApp</a>
+          <a class="btn claro" id="mail" href="#">Enviar correo</a>
+          <a class="btn claro" id="ig" href="#" target="_blank" rel="noopener">Instagram</a>
+        </div>
+        <p class="dato" id="tel"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap">© Jose Juarez, fotógrafo y videógrafo</div></footer>
+  <script src="datos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
