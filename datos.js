@@ -11,8 +11,8 @@ window.DATOS = {
 
   contacto: {
     correo: "correo@ejemplo.com",
-    whatsapp: "520000000000",      // con lada del país, sin + ni espacios (México: 52 + 10 dígitos)
-    telefono: "+52 00 0000 0000",
+    whatsapp: "525534349567",      // con lada del país, sin + ni espacios (México: 52 + 10 dígitos)
+    telefono: "+52 55 3434 9567",
     instagram: "tu_usuario"        // sin @
   },
 
