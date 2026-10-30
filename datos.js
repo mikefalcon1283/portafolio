@@ -10,7 +10,7 @@ window.DATOS = {
   retrato: "img/retrato.jpg",
 
   contacto: {
-    correo: "correo@ejemplo.com",
+    correo: "miguel.gomez5@icloud.com",
     whatsapp: "525534349567",      // con lada del país, sin + ni espacios (México: 52 + 10 dígitos)
     telefono: "+52 55 3434 9567",
     instagram: "tu_usuario"        // sin @
