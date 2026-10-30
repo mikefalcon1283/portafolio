@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galería — Jose Juárez</title>
+  <meta name="description" content="Galerías de fotografía de Jose Juárez: drone, eventos sociales y corporativo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Public+Sans:wght@400;600&family=Italianno&family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-pagina="galeria">
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Jose Juárez, fotografía y video"><span class="b-nombre">Jose Juárez</span><span class="b-sub">fotografía y video</span></a>
+      <button class="menu" aria-expanded="false" aria-controls="nav">Menú</button>
+      <nav class="nav" id="nav">
+        <a href="index.html#galerias" aria-current="page">Galerías</a>
+        <a href="index.html#videos">Videos</a>
+        <a href="index.html#acerca">Acerca de</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="sec">
+    <div class="wrap">
+      <h2 id="titulo"></h2>
+      <p class="intro" id="descripcion"></p>
+      <nav class="tabs" id="tabs" aria-label="Categorías"></nav>
+      <div class="mosaico" id="mosaico"></div>
+    </div>
+  </main>
+
+  <dialog id="visor" aria-label="Visor de fotos">
+    <div class="visor-in">
+      <img id="visor-img" alt="">
+      <p id="visor-cap"></p>
+    </div>
+    <button class="vb" id="v-cerrar" aria-label="Cerrar">✕</button>
+    <button class="vb" id="v-prev" aria-label="Foto anterior">‹</button>
+    <button class="vb" id="v-next" aria-label="Foto siguiente">›</button>
+  </dialog>
+
+  <footer><div class="wrap">© Jose Juárez, fotógrafo y videógrafo</div></footer>
+  <script src="datos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
