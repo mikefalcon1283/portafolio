@@ -76,7 +76,7 @@ h2{font:700 clamp(1.9rem,4vw,2.9rem)/1.1 var(--display);letter-spacing:-.02em}
 .acerca img{width:100%;aspect-ratio:4/5;object-fit:cover}
 .acerca p{max-width:60ch;margin-top:1rem}
 @media (max-width:760px){.acerca{grid-template-columns:1fr}}
-.acciones{display:flex;flex-wrap:wrap;gap:.75rem;margin:1.75rem 0 1rem}
+.acciones{display:flex;flex-direction:column;align-items:flex-start;gap:1rem;margin:1.75rem 0 1rem}
 .dato{color:var(--mist)}
 footer{padding:2rem 0;border-top:1px solid var(--line);color:var(--mist);font-size:.9rem}
 
@@ -93,7 +93,6 @@ dialog::backdrop{background:rgba(8,16,24,.95)}
 #v-next{right:1rem;top:50%;translate:0 -50%}
 
 /* Redes: íconos en fila, correo debajo */
-.acciones{flex-direction:column;align-items:flex-start;gap:1rem}
 .redes{display:flex;gap:.75rem}
 .red{display:inline-grid;place-items:center;width:52px;height:52px;border-radius:50%;color:#fff;text-decoration:none}
 .red svg{width:28px;height:28px}
