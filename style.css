@@ -93,8 +93,10 @@ dialog::backdrop{background:rgba(8,16,24,.95)}
 #v-next{right:1rem;top:50%;translate:0 -50%}
 
 /* Ícono de WhatsApp */
+.acciones{align-items:center}
 .wa{display:inline-grid;place-items:center;width:52px;height:52px;border-radius:50%;background:#25D366;color:#fff;text-decoration:none}
 .wa svg{width:28px;height:28px;fill:currentColor}
 .wa:hover{background:#1ebe5b}
 @media (prefers-reduced-motion:no-preference){.wa{transition:transform .2s,background .2s}.wa:hover{transform:scale(1.08)}}
+
 
