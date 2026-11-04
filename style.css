@@ -92,11 +92,17 @@ dialog::backdrop{background:rgba(8,16,24,.95)}
 #v-prev{left:1rem;top:50%;translate:0 -50%}
 #v-next{right:1rem;top:50%;translate:0 -50%}
 
-/* Ícono de WhatsApp */
-.acciones{align-items:center}
-.wa{display:inline-grid;place-items:center;width:52px;height:52px;border-radius:50%;background:#25D366;color:#fff;text-decoration:none}
-.wa svg{width:28px;height:28px;fill:currentColor}
+/* Redes: íconos en fila, correo debajo */
+.acciones{flex-direction:column;align-items:flex-start;gap:1rem}
+.redes{display:flex;gap:.75rem}
+.red{display:inline-grid;place-items:center;width:52px;height:52px;border-radius:50%;color:#fff;text-decoration:none}
+.red svg{width:28px;height:28px}
+.wa svg{fill:currentColor}
+.wa{background:#25D366}
 .wa:hover{background:#1ebe5b}
-@media (prefers-reduced-motion:no-preference){.wa{transition:transform .2s,background .2s}.wa:hover{transform:scale(1.08)}}
+.ig{background:linear-gradient(45deg,#f09433,#dc2743,#bc1888)}
+.ig:hover{filter:brightness(1.1)}
+@media (prefers-reduced-motion:no-preference){.red{transition:transform .2s,filter .2s,background .2s}.red:hover{transform:scale(1.08)}}
+
 
 
