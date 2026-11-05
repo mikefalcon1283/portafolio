@@ -61,7 +61,7 @@
 
   /* ---------- Página de galería ---------- */
   if (document.body.dataset.pagina === 'galeria') {
-    const claves = Object.keys(D.categorias);
+    const claves = Object.keys(D.categorias).filter(k => D.categorias[k].fotos.length);
     let actual = new URLSearchParams(location.search).get('c');
     if (!D.categorias[actual]) actual = claves[0];
     const cat = D.categorias[actual];
