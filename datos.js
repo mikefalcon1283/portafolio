@@ -33,14 +33,22 @@ window.DATOS = {
         { src: "img/foto-02.jpg", alt: "Fotografía aérea con drone" }
       ]
     },
-    eventos: {
-      nombre: "Eventos sociales",
-      descripcion: "Bodas, XV años y celebraciones, con atención a los momentos que no se repiten.",
-      fotos: [
-        { src: "img/boda-preparativo-novia.jpg", alt: "Novia sonriendo junto a la ventana con un ramo de alcatraces" },
-        { src: "img/foto-04.jpg", alt: "Fotografía de evento social" }
-      ]
-    },
+    bodas: {
+  nombre: "Bodas",
+  descripcion: "Desde los preparativos hasta la fiesta, con atención a los momentos que no se repiten.",
+  fotos: [
+    { src: "img/bodas/boda-preparativo-novia.jpg", alt: "Novia sonriendo junto a la ventana con un ramo de alcatraces" },
+    { src: "img/bodas/boda-02.jpg", alt: "Descripción de la foto" }
+    // ...el resto
+  ]
+},
+eventos: {
+  nombre: "Eventos sociales",
+  descripcion: "XV años, bautizos, primeras comuniones y celebraciones familiares.",
+  fotos: [
+    // tus fotos de XV años, bautizos y comuniones
+  ]
+},
     corporativo: {
       nombre: "Corporativo",
       descripcion: "Eventos de empresa, retratos profesionales y cobertura de proyectos.",
@@ -50,19 +58,14 @@ window.DATOS = {
       ]
     },
     retratos: {
-      nombre: "Retrato",
-      descripcion: "Sesiones en exterior y en interior, a tu estilo.",
-      fotos: [
-        { src: "img/retratos/retrato-01.jpg", alt: "Retrato en exterior" },
-        { src: "img/retratos/retrato-02.jpg", alt: "Retrato en interior" }
-      ]
-    },
-    mascotas: {
-      nombre: "Mascotas",
-      descripcion: "Retratos de tu mascota, con o sin ti.",
-      fotos: [
-        { src: "img/mascotas/mascota-01.jpg", alt: "Retrato de mascota" },
-        { src: "img/mascotas/mascota-02.jpg", alt: "Persona con su mascota" }
+  nombre: "Retrato y mascotas",
+  descripcion: "Sesiones de retrato en exterior e interior, con tu mascota o solo con ella.",
+  fotos: [
+    { src: "img/retratos/retrato-01.jpg", alt: "Retrato en exterior" },
+    { src: "img/retratos/mascota-01.jpg", alt: "Persona con su perro en el parque" }
+    // ...el resto
+  ]
+}
       ]
     }
   }
