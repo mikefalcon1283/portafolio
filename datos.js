@@ -49,7 +49,8 @@ window.DATOS = {
       fotos: [
          { src: "img/bautizo-cdmx-001.jpg", alt: "Bautizo de una niña en la Ciudad de México, con el agua cayendo sobre su cabeza"},
          { src: "img/primera-comunion-altar-cdmx-001.jpg", alt: "Niña con vestido blanco en su primera comunión en la Ciudad de México" },
-         { src: "img/mascotas-perro-iguana-parque-cdmx-001.jpg", alt: "Mujer sentada en el pasto de un parque dándole la mano a su perro schnauzer blanco, con una iguana sobre el hombro" }
+         { src: "img/mascotas-perro-iguana-parque-cdmx-001.jpg", alt: "Mujer sentada en el pasto de un parque dándole la mano a su perro schnauzer blanco, con una iguana sobre el hombro" },
+         { src: "img/mascotas-perro-iguana-parque-cdmx-002.jpg", alt: "Mujer sentada en un pasillo posando junto a su perro schnauzer blanco y su iguana" }
         // tus fotos de XV años, bautizos y comuniones
       ]
     },
