@@ -37,7 +37,7 @@ window.DATOS = {
       nombre: "Eventos sociales",
       descripcion: "Bodas, XV años y celebraciones, con atención a los momentos que no se repiten.",
       fotos: [
-        { src: "boda-preparativo-novia.jpg", alt: "Novia sonriendo junto a la ventana con un ramo de alcatraces" },
+        { src: "img/boda-preparativo-novia.jpg", alt: "Novia sonriendo junto a la ventana con un ramo de alcatraces" },
         { src: "img/foto-04.jpg", alt: "Fotografía de evento social" }
       ]
     },
