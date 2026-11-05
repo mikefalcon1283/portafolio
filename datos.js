@@ -34,18 +34,18 @@ window.DATOS = {
       ]
     },
     bodas: {
-  nombre: "Bodas",
-  descripcion: "Desde los preparativos hasta la fiesta, con atención a los momentos que no se repiten.",
-  fotos: [
-    { src: "img/bodas/boda-preparativo-novia.jpg", alt: "Novia sonriendo junto a la ventana con un ramo de alcatraces" },
-    { src: "img/bodas/boda-02.jpg", alt: "Descripción de la foto" }
+      nombre: "Bodas",
+      descripcion: "Desde los preparativos hasta la fiesta, con atención a los momentos que no se repiten.",
+      fotos: [
+        { src: "img/boda-preparativo-novia.jpg", alt: "Novia sonriendo junto a la ventana con un ramo de alcatraces" },
+        { src: "img/bodas/boda-02.jpg",          alt: "Descripción de la foto" }
     // ...el resto
-  ]
-},
-eventos: {
-  nombre: "Eventos sociales",
-  descripcion: "XV años, bautizos, primeras comuniones y celebraciones familiares.",
-  fotos: [
+      ]
+    },
+    eventos: {
+      nombre: "Eventos sociales",
+      descripcion: "XV años, bautizos, primeras comuniones y celebraciones familiares.",
+      fotos: [
     // tus fotos de XV años, bautizos y comuniones
   ]
 },
