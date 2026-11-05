@@ -47,6 +47,7 @@ window.DATOS = {
       nombre: "Eventos sociales",
       descripcion: "XV años, bautizos, primeras comuniones y celebraciones familiares.",
       fotos: [
+         { src: "img/bautizo-cdmx-001.jpg", alt: "Bautizo de una niña en la Ciudad de México, con el agua cayendo sobre su cabeza"}
         // tus fotos de XV años, bautizos y comuniones
       ]
     },
