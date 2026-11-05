@@ -25,14 +25,6 @@ window.DATOS = {
   // Galerías. Para agregar una foto: súbela a la carpeta y suma una línea.
   // La primera foto de cada categoría es la portada de esa galería.
   categorias: {
-    drone: {
-      nombre: "Drone",
-      descripcion: "Fotografía aérea de paisajes, obras y espacios vistos desde arriba.",
-      fotos: [
-        { src: "img/foto-01.jpg", alt: "Fotografía aérea con drone" },
-        { src: "img/foto-02.jpg", alt: "Fotografía aérea con drone" }
-      ]
-    },
     bodas: {
       nombre: "Bodas",
       descripcion: "Desde los preparativos hasta la fiesta, con atención a los momentos que no se repiten.",
@@ -48,15 +40,13 @@ window.DATOS = {
       descripcion: "XV años, bautizos, primeras comuniones y celebraciones familiares.",
       fotos: [
          { src: "img/bautizo-cdmx-001.jpg", alt: "Bautizo de una niña en la Ciudad de México, con el agua cayendo sobre su cabeza"},
-         { src: "img/primera-comunion-altar-cdmx-001.jpg", alt: "Niña con vestido blanco en su primera comunión en la Ciudad de México" },
-         { src: "img/mascotas-perro-iguana-parque-cdmx-001.jpg", alt: "Mujer sentada en el pasto de un parque dándole la mano a su perro schnauzer blanco, con una iguana sobre el hombro" },
-         { src: "img/mascotas-perro-iguana-parque-cdmx-002.jpg", alt: "Mujer sentada en un pasillo posando junto a su perro schnauzer blanco y su iguana" }
+         { src: "img/primera-comunion-altar-cdmx-001.jpg", alt: "Niña con vestido blanco en su primera comunión en la Ciudad de México" }
         // tus fotos de XV años, bautizos y comuniones
       ]
     },
     corporativo: {
       nombre: "Corporativo",
-      descripcion: "Eventos de empresa, retratos profesionales y cobertura de proyectos.",
+      descripcion: "Cobertura en foto y video de tu empresa: eventos, retratos profesionales, proyectos y contenido para tus redes.",
       fotos: [
         { src: "img/foto-05.jpg", alt: "Fotografía corporativa" },
         { src: "img/foto-06.jpg", alt: "Fotografía corporativa" }
@@ -66,8 +56,8 @@ window.DATOS = {
       nombre: "Retrato y mascotas",
       descripcion: "Sesiones de retrato en exterior e interior, con tu mascota o solo con ella.",
       fotos: [
-        { src: "img/retratos/retrato-01.jpg", alt: "Retrato en exterior" },
-        { src: "img/retratos/mascota-01.jpg", alt: "Persona con su perro en el parque" }
+         { src: "img/mascotas-perro-iguana-parque-cdmx-001.jpg", alt: "Mujer sentada en el pasto de un parque dándole la mano a su perro schnauzer blanco, con una iguana sobre el hombro" },
+         { src: "img/mascotas-perro-iguana-parque-cdmx-002.jpg", alt: "Mujer sentada en un pasillo posando junto a su perro schnauzer blanco y su iguana" }
         // ...el resto
       ]
     }
