@@ -38,7 +38,8 @@ window.DATOS = {
       descripcion: "Desde los preparativos hasta la fiesta, con atención a los momentos que no se repiten.",
       fotos: [
         { src: "img/boda-preparativo-novia.jpg", alt: "Novia sonriendo junto a la ventana con un ramo de alcatraces" },
-        { src: "img/boda-preparativo-novio.jpg", alt: "Novio antes de la boda preparando las palabras que le dedicara a su futura esposa" }
+        { src: "img/boda-preparativo-novio.jpg", alt: "Novio antes de la boda preparando las palabras que le dedicara a su futura esposa" },
+        { src: "img/primer-vistazo-novios.jpg",  alt: "El primer vistazo o first look de los novios antes de la boda" }
         // ...el resto
       ]
     },
