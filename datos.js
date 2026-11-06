@@ -45,14 +45,6 @@ window.DATOS = {
         // tus fotos de XV años, bautizos y comuniones
       ]
     },
-    corporativo: {
-      nombre: "Corporativo",
-      descripcion: "Cobertura en foto y video de tu empresa: eventos, retratos profesionales, proyectos y contenido para tus redes.",
-      fotos: [
-        { src: "img/foto-05.jpg", alt: "Fotografía corporativa" },
-        { src: "img/foto-06.jpg", alt: "Fotografía corporativa" }
-      ]
-    },
     retratos: {
       nombre: "Retrato y mascotas",
       descripcion: "Sesiones de retrato en exterior e interior, con tu mascota o solo con ella.",
@@ -61,6 +53,14 @@ window.DATOS = {
          { src: "img/mascotas-perro-iguana-parque-cdmx-002.jpg", alt: "Mujer sentada en un pasillo posando junto a su perro schnauzer blanco y su iguana" }
         // ...el resto
       ]
-    }
+    },
+       corporativo: {
+      nombre: "Corporativo",
+      descripcion: "Cobertura en foto y video de tu empresa: eventos, retratos profesionales, proyectos y contenido para tus redes.",
+      fotos: [
+        { src: "img/foto-05.jpg", alt: "Fotografía corporativa" },
+        { src: "img/foto-06.jpg", alt: "Fotografía corporativa" }
+      ]
+    }  
   }
 };
