@@ -50,7 +50,8 @@ window.DATOS = {
       descripcion: "Sesiones de retrato en exterior e interior, con tu mascota o solo con ella.",
       fotos: [
          { src: "img/mascotas-perro-iguana-parque-cdmx-001.jpg", alt: "Mujer sentada en el pasto de un parque dándole la mano a su perro schnauzer blanco, con una iguana sobre el hombro" },
-         { src: "img/mascotas-perro-iguana-parque-cdmx-002.jpg", alt: "Mujer sentada en un pasillo posando junto a su perro schnauzer blanco y su iguana" }
+         { src: "img/mascotas-perro-iguana-parque-cdmx-002.jpg", alt: "Mujer sentada en un pasillo posando junto a su perro schnauzer blanco y su iguana" },
+         { src: "img/mascotas-schnauzer-CDMX-001.jpg", alt: "Schnauzer gris con arnés tipo esmoquin y moño rojo, mirando a la cámara junto a una flor naranja en un parque" }
         // ...el resto
       ]
     },
