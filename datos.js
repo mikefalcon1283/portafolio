@@ -40,7 +40,8 @@ window.DATOS = {
       descripcion: "XV años, bautizos, primeras comuniones y celebraciones familiares.",
       fotos: [
          { src: "img/bautizo-cdmx-001.jpg", alt: "Bautizo de una niña en la Ciudad de México, con el agua cayendo sobre su cabeza"},
-         { src: "img/primera-comunion-altar-cdmx-001.jpg", alt: "Niña con vestido blanco en su primera comunión en la Ciudad de México" }
+         { src: "img/primera-comunion-altar-cdmx-001.jpg", alt: "Niña con vestido blanco en su primera comunión en la Ciudad de México" },
+         { src: "img/primera-comunion-vestido-cdmx-001.jpg", alt: "Niña con vestido blanco en su sesión de fotos de primera comunión en la Ciudad de México" }
         // tus fotos de XV años, bautizos y comuniones
       ]
     },
