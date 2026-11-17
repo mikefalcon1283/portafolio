@@ -41,7 +41,8 @@ window.DATOS = {
       fotos: [
          { src: "img/bautizo-cdmx-001.jpg", alt: "Bautizo de una niña en la Ciudad de México, con el agua cayendo sobre su cabeza"},
          { src: "img/primera-comunion-altar-cdmx-001.jpg", alt: "Niña con vestido blanco en su primera comunión en la Ciudad de México" },
-         { src: "img/primera-comunion-vestido-cdmx-001.jpg", alt: "Niña con vestido blanco en su sesión de fotos de primera comunión en la Ciudad de México" }
+         { src: "img/primera-comunion-vestido-cdmx-001.jpg", alt: "Niña con vestido blanco en su sesión de fotos de primera comunión en la Ciudad de México" },
+         { src: "img/sesion-xv-anos-parque-masayoshi-ohira-cdmx-2025.jpg", alt: "Retrato de XV años en el Parque Masayoshi Ohira, Ciudad de México: vestido rosa de tul con brillo, ramo de flores en tonos rosa y morado, y el jardín japonés como fondo." }
         // tus fotos de XV años, bautizos y comuniones
       ]
     },
