@@ -60,8 +60,10 @@ window.DATOS = {
       nombre: "Corporativo",
       descripcion: "Cobertura en foto y video de tu empresa: eventos, retratos profesionales, proyectos y contenido para tus redes.",
       fotos: [
-        { src: "img/foto-05.jpg", alt: "Fotografía corporativa" },
-        { src: "img/foto-06.jpg", alt: "Fotografía corporativa" }
+        { src: "img/spider-noir-stand-ccxp-mexico-2026.jpg", alt: "Fotografía oficial de Prime Video en CCXP México 2026: la experiencia Spider-Noir cobra vida en el stand." },
+        { src: "img/photocall-spider-noir-ccxp-mexico-2026.jpg", alt: "Photocall oficial de Prime Video en CCXP México 2026, con ambientación inspirada en el universo de Spider-Noir." },
+        { src: "img/fan-de-invencible-ccxp-mexico-2026.jpg", alt: "Un fan de Invencible posa frente al póster oficial en el stand de Prime Video. Cobertura oficial, CCXP México 2026." } 
+         
       ]
     }  
   }
